@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+body, html {
+    margin: 0;
+    padding-top: 45px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(248,249,250);
+}
+
+.card{
+    margin-top: 50px;
+    border-radius: 18px; 
+}
+
+.card-img-top{
+    border-radius: 18px 18px 0 0; 
+}
+
+.card-horizontal{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#headlines{
+    margin-top: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.gradient{
+    height: 10vh;
+    background: linear-gradient(180deg, rgba(2,85,165,0.1) 0%, rgba(90,160,228,0.1) 50%, rgba(248,249,250,1) 100%);
+}
+
+#home {
+    background-image: url(../img/doctors2.jpg);
+    height: 100vh;
+    background-position: 45vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+#home-image{
+    height: 95vh;
+}
+
+#name{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 5rem;
+    color:#0255a5;
+    margin-top: 35vh;
+}
+
+#slogan{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar-nav li{
+    padding-right: 10px;
+}
+
+#arrow-down{
+    font-size: 400%;
+    color:#0255a5;
+    position:fixed;
+    bottom:20px;
+    right:50%;
+}
+
+#arrow-down:hover {
+    color: gray;
+    transform: translateY(4px);
+ }
+ 
+#arrow-top{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 400%;
+    color: #0255a5;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#arrow-top:hover {
+   color: gray;
+   transform: translateY(4px);
+}
+
+#about{
+height: 100vh;
+}
+
+#contact {
+background-color: mediumseagreen;
+height: 100vh;
+}
+
+.contentDiv{
+    height:100vh;
+}
+
+.fadeinLeft {
+	opacity:0;
+	margin-left:-300px;	
+	max-width:100%;
+}
+
+.fadeinRight {
+	opacity:0;
+	margin-left:300px;	
+	max-width:100%;
+}
+
+.fadeinDown {
+	opacity:0;
+	margin-top:300px;	
+	max-width:100%;
+}
+
+
+#map{
+    height: 60vh;
+    width: 40vw;
+}
+
+.card-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Montserrat;
+}
+
+.card-outer {
+	position: relative;
+	background: #fff;
+	height: 350px;
+	width: 550px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.card-img-right {
+	position: absolute;
+	top: 0px;
+	right: -20px;
+	z-index: 0;
+	animation-delay: 0.5s;
+}
+
+.content {
+	animation-delay: 0.3s;
+	position: absolute;
+	left: 20px;
+	z-index: 3
+}
+
+.card-p {
+	width: 280px;
+	font-size: 13px;
+	line-height: 1.4;
+	color: #aaa;
+	margin: 20px 0;
+}
+
+.bg {
+	display: inline-block;
+	color: #fff;
+	background: cornflowerblue;
+	padding: 5px 10px;
+	border-radius: 50px;
+	font-size: .7em;
+}
+
+
+@media (max-width: 768px) {
+    .card-horizontal{
+        flex: 1 1 auto;
+    } 
+    
+    #map{
+        height: 60vh;
+        width: 80vw;
+    }
+}

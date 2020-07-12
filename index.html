@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Smilife</title>
+    <meta name="author" content="Samuel Garcia">
+    <meta name="description" content="Dentist website created with HTML5/CSS3/BOOTSTRAP4/JQuerry">
+    <meta name="keywords" content="dentista, Nicaragua, Managua, sitio web, ortodoncia, empaste">
+    <link rel="icon" href="img/logo.jpg" >
+    
+    <!--Boostrap 4, JQuery and Font Awesome-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    
+    <!--CSS and JavaScript-->
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/pageLoad.js"></script>
+    <script type="text/javascript" src="js/arrow.js"></script>
+    <script type="text/javascript" src="js/sideSlide.js"></script>
+
+    <!--JQuerry UI libraries-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	
+</head>
+<body>
+    <!--Navbar Section-->
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navBar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="25%" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Inicio</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#procedures">Servicios</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Dirección / Teléfono</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+      
+    <!--Home Section-->
+      <div class="container-fluid" id="home">
+          <div class="row" >
+            <div class="col-xl-4 col-md-8 offset-md-2 offset-1">
+                <h1 id="name">Smilife</h1>
+            </div>
+          </div>
+
+            <div class="row">
+                <div class="col-6 offset-md-2 offset-1" id="slogan">
+                    <p>Luce tu sonrisa. Especialistas en el cuidado de tu boca.</p>
+                </div>
+            </div>
+
+            <!--Down Arrow-->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="#procedures"><i class="fa fa-chevron-circle-down" id="arrow-down"></i></a>
+                </div> 
+            </div>
+        </div>
+
+        <a href="#home" id="arrow-top"><i class="fa fa-chevron-circle-up"></i></a>
+
+        <!--Services-->
+        <div class="row gradient">
+            <div class="col-12"></div> 
+        </div>
+        
+        <div class="container-fluid" id="procedures">
+            <div class="row">
+                <h1 class="mx-auto" id="headlines">Servicios ofrecidos</h1>
+            </div>
+
+        <!--Services Row 1-->
+            <div class="row text-center slide fadeinLeft">
+                <div class="col-lg-2 col-sm-6 d-flex offset-lg-2">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="img/braces2.jpg" alt="braces">
+                        <div class="card-body">
+                          <h5 class="card-title">Ortodoncia</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6 d-flex">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="img/dentist3.jpg" alt="dental exam image">
+                        <div class="card-body">
+                          <h5 class="card-title">Limpieza dental</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6 d-flex">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="img/white-smile.jpg" alt="dental exam image">
+                        <div class="card-body">
+                          <h5 class="card-title">Blanqueamiento dental</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6 d-flex">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="img/dental-implant.jpg" alt="dental implant">
+                        <div class="card-body">
+                          <h5 class="card-title">Implante dental</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--Services Row 2-->
+            <div class="row mb-4 text-center slide fadeinRight">
+                <div class="col-lg-2 col-sm-6 d-flex offset-lg-2">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="img/dentures.jpg" alt="dentures">
+                        <div class="card-body">
+                          <h5 class="card-title">Protesis fijas o remobibles</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6 d-flex">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="img/radiography.jpg" alt="radiography">
+                        <div class="card-body">
+                          <h5 class="card-title">Radiografias</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6 d-flex">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="img/dentist1.jpg" alt="dental exam image">
+                        <div class="card-body">
+                          <h5 class="card-title">Examen dental</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6 d-flex">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="img/teeth-extraction.jpg" alt="extraction">
+                        <div class="card-body">
+                          <h5 class="card-title">Extraccion</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--About Section-->
+        <div id="about" class="container-fluid">
+            <div class="row">
+                <h1 class="mx-auto" id="headlines">Quienes somos</h1>
+            </div>
+
+            <!--Cards row 1-->
+            <div class="row mt-5">
+                <div class="card-wrapper col-md-4 offset-md-2">
+                    <div class="card-outer">
+                        <div class="slide fadeinRight">
+                            <span class="bg slideDown fadeinDown">Doctor Especialista</span>
+                            <h1 style="color: #111">Carlos Samuel<br/>Garcia Perez</h1>
+                            <p class="card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus odio sed efficitur venenatis.</p>
+                        </div>
+                        <img class="card-img-right" src="img/doc-1.png" width="300px">
+                    </div>
+                </div>
+
+                <div class="card-wrapper col-md-4">
+                    <div class="card-outer">
+                        <div class="slide fadeinLeft">
+                            <span class="bg slideDown fadeinDown">Doctor Especialista</span>
+                            <h1 style="color: #111">Silvina Apellido<br/>Apellido</h1>
+                            <p class="card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus odio sed efficitur venenatis.</p>
+                        </div>
+                        <img class="card-img-right" src="img/doc-1.png" width="300px">
+                    </div>
+                </div>
+            </div>
+
+            <!--Cards row 2-->
+            <div class="row mt-5">
+                <div class="card-wrapper col-md-4 offset-md-2">
+                    <div class="card-outer">
+                        <div class="slide fadeinRight">
+                            <span class="bg slideDown fadeinDown">Asistente Dental</span>
+                            <h1 style="color: #111">Nombre Apellido<br/>Apellido</h1>
+                            <p class="card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus odio sed efficitur venenatis.</p>
+                        </div>
+                        <img class="card-img-right" src="img/doc-1.png" width="300px">
+                    </div>
+                </div>
+
+                <div class="card-wrapper col-md-4">
+                    <div class="card-outer">
+                        <div class="slide fadeinLeft">
+                            <span class="bg slideDown fadeinDown">Asistente Dental</span>
+                            <h1 style="color: #111">Nombre Apellido<br/>Apellido</h1>
+                            <p class="card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus odio sed efficitur venenatis.</p>
+                        </div>
+                        <img class="card-img-right" src="img/doc-1.png" width="300px">
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+    <!--Location Section-->
+        <div id="location" class="container-fluid">
+            <div class="row">
+                <h1 class="mx-auto" id="headlines">Dirección / Teléfono</h1>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-5 offset-md-1 text-center">
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LC4jUr0C4PhYs76GeCKv_IuNQgX0nj-p" id="map"></iframe>
+                </div>
+
+                <div class="col-md-3 text-center offset-1">
+                    <h2 class="mt-5">Dirección</h2>
+                    <hr/>
+                    <p>Rotonda Ticuantepe 700 mts hacia Veracruz (1,038.78 mi)
+                        Managua, Managua</p>
+
+                    <h2 class="mt-5">Horario</h2>
+                    <hr/>
+                    <p>Lunes-Viernes de 8:00 AM a 6:00 PM</p>
+                    <p>Cerrado Sabado y Domingo</p>
+
+                    <h2 class="mt-5">Teléfono</h2>
+                    <hr/>
+                    <p>+505 2225 4172</p>
+                </div>
+            </div>
+        </div>
+
+    <!--Contact Section-->
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="mx-auto" id="headlines">Contáctanos</h1>
+            </div>
+
+            <div class="row mb-5">
+                <p class="mx-auto">Hága su sita por telefono llamando a +505 2225 4172 o por Messenger en nuestra página de Facebook<a href="https://www.facebook.com/SmilifeCD/"> aquí.</a> </p>
+            </div>
+
+        </div>
+    
+<!--Footer-->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+    <div class="container text-center text-md-left">
+        <div class="row">
+            <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+                <h5 class="font-weight-bold text-uppercase mb-4">Smilife</h5>
+                <p>Luce tu sonrisa. Especialistas en el cuidado de tu boca.</p>
+            </div>
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <h5 class="font-weight-bold text-uppercase mb-4">Atajos</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <p>
+                            <a href="#procedures">Servicios</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <a href="#about">Acerca de nosotros</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <a href="#location">Dirección</a>
+                        </p>
+                    </li>
+                  
+                </ul>
+          </div>
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <div class="col-md-3 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                <h5 class="font-weight-bold text-uppercase mb-4">Dirección y teléfono</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <p><i class="fas fa-home mr-3"></i> Rotonda Ticuantepe 700 mts hacia Veracruz (1,038.78 mi)
+                            Managua, Nicaragua </p>
+                    </li>
+
+                    <li>
+                        <p><i class="fas fa-phone mr-3"></i> +505 2225 4172</p>
+                    </li>
+                </ul>
+            </div>
+
+          <hr class="clearfix w-100 d-md-none">
+
+          <div class="col-md-3 col-lg-3 text-center mx-auto my-4 social">
+
+            <h5 class="font-weight-bold text-uppercase mb-4">Sigenos en Facebook</h5>
+
+            <a type="button" href="https://www.facebook.com/SmilifeCD/">
+              <i class="fab fa-facebook-square " style="font-size: 2em;" ></i>
+            </a>
+          </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="index.html"> Smilife</a>
+    </div>
+            
+</footer>
+    
+</body>
+</html>
